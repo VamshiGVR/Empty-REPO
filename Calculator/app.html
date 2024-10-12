@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html ng-app="Calculator" lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+    <script src="app.js"></script>
+</head>
+
+<body ng-controller="Calis">
+
+    <cite>
+        <h1>CALCULATOR</h1>jhbhjbjhn
+        <hr>
+        Value 1: <input type="text" ng-model="ValOne">
+        <br><br>
+        Value 2: <input type="text" ng-model="ValTwo">
+        <br><br>
+        <hr>
+        Result: <input type="textarea" disabled ng-model="Result">
+        <hr>
+        <button ng-click="Add()">ADD</button>
+
+        <button ng-click="Sub()">SUBRACT</button>
+        <br>
+        <hr> <br>
+        <button ng-click="Reset()">RESET</button>
+
+        {{ $scope.Message }}
+    </cite>
+</body>
+
+</html>
